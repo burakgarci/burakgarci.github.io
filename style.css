@@ -1,0 +1,90 @@
+/*
+* Primary style file
+*/
+
+*, *:before, *:after, *:focus {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: none;
+}
+
+body {
+	font: 16px/1.5 'Open Sans', Ubuntu, Verdana, sans-serif;
+	background: #f7f7f7;
+	color: #453445;
+	margin: 0;
+	padding: 3px;
+}
+a {
+	color: #16a085
+}
+a:hover,
+a:focus {
+	color: #c0392b;
+}
+a:not(:hover) {
+	text-decoration: none;
+}
+.wrap {
+	width: 100%;
+	min-width: 260px;
+	max-width: 740px;
+	text-align: center;
+}
+#header	{
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #e6e6e6;
+}
+#avatar {
+	width: 128px;
+	height: 128px;
+	border-radius: 50%;
+	box-shadow: 0 0 1px rgba(0,0,0,.2);
+}
+#header-title {
+	font-weight: normal;
+	color: #666;
+	margin: 5px 0;
+}
+#header-desc {
+	margin: 0;
+}
+.project {
+	display: inline-block;
+	background: #fff;
+	border: 1px solid #eee;
+	box-shadow: 0 1px 2px -1px rgba(0,0,0,.1);
+	margin-bottom: 20px;
+	border-radius: 3px 3px 0 0;
+}
+.project:hover {
+	box-shadow: 0 0 4px 0 rgba(0,0,0,.2);
+}
+.project-img {
+	width: 240px;
+	height: 220px;
+	vertical-align: top;
+	border-radius: 3px 3px 0 0;
+}
+.project-title {
+	height: 40px;
+	line-height: 40px;
+}
+#projects a{
+	text-decoration: none;
+}
+#projects a:not(:hover){
+	color: #555;
+}
+.project a:hover {
+	color: #c0392b;
+}
+
+/* For bigger screens */
+@media screen and (min-width: 481px) {
+	.wrap {
+		margin: 30px auto 10px auto;
+	}
+}
