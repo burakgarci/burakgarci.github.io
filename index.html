@@ -1,50 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Burak Garcı on GitHub</title>
-	<meta name="description" content="Burak Garcı's GitHub page...">
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C700&amp;subset=latin%2Clatin-ext" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Burak Garcı on GitHub</title>
+<meta name="description" content="Desktop apps, browser extensions and web tools by Burak Garcı.">
+<meta name="theme-color" content="#f2f3f5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#17181c" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="wrap">
+<main class="wrap">
+  <header class="profile">
+    <img class="avatar" src="https://1.gravatar.com/avatar/3c6a3c4b374376af51205fb9092033a9?s=240" width="112" height="112" alt="Burak Garcı">
+    <h1>Burak Garcı</h1>
+    <p class="bio">I build bots and web tools, and keep them running for my clients.</p>
+    <nav class="links" aria-label="Links"><a href="https://burakgarci.net">burakgarci.net</a><a href="https://github.com/burakgarci">GitHub</a><a href="https://x.com/burakgarci">X</a></nav>
+  </header>
 
-		<div id="header">
-			<img src="http://1.gravatar.com/avatar/3c6a3c4b374376af51205fb9092033a9?s=128" alt="Burak Garcı" id="avatar"/>
-			<h1 id="header-title">Burak Garcı</h1><!-- /#header-title -->
-			<p id="header-desc">
-				<a href="http://burakgarci.net"><small>burakgarci.net</small></a>
-			</p><!-- /#header-desc -->
-		</div><!-- /#header -->
+  <section aria-labelledby="h-projects">
+    <h2 id="h-projects">Projects</h2>
+    <ul class="grid">
+        <li><a class="card" href="https://github.com/burakgarci/flit-new-tab"><img class="shot" src="images/flit.webp" width="800" height="500" loading="lazy" decoding="async" alt=""><span class="body"><span class="kind c-blue">Extension</span><b>Flit New Tab</b><span class="s">Shows the bookmarks you pick the moment you open a new tab. Fast and privacy-first. Formerly Sade New Tab.</span><span class="tags"><span class="tag">Chrome</span><span class="tag">Edge</span><span class="tag">Brave</span><span class="tag">Open source</span></span></span></a></li>
+        <li><a class="card" href="https://burakgarci.net/projeler/desksort/"><img class="shot" src="images/desksort.webp" width="800" height="500" loading="lazy" decoding="async" alt=""><span class="body"><span class="kind c-green">App</span><b>Desksort</b><span class="s">A Windows app that sorts desktop icons by type (folders, shortcuts, documents, images) and arranges them in groups. You pick the direction, starting corner and icons per column. Files are never moved and a backup is taken first.</span><span class="tags"><span class="tag">Windows</span><span class="tag">Multi-monitor</span></span></span></a></li>
+        <li><a class="card" href="https://burakgarci.net/projeler/kisisel-klasor-konumu-degistirici/"><img class="shot" src="images/folder-relocator.webp" width="800" height="500" loading="lazy" decoding="async" alt=""><span class="body"><span class="kind c-orange">Tool</span><b>Kişisel Klasör Konumu Değiştirici</b><span class="s">A small tool to change where Windows personal folders like Documents, Downloads and Desktop live, all from one place.</span><span class="tags"><span class="tag">Windows</span><span class="tag">v2.0.0</span></span></span></a></li>
+        <li><a class="card" href="https://rp.burakgarci.net/"><img class="shot" src="images/rastgele-profil.webp" width="800" height="500" loading="lazy" decoding="async" alt=""><span class="body"><span class="kind c-blue">Web tool</span><b>Rastgele Profil</b><span class="s">Generates random Turkish profiles with photos for designers: name, city, contact details and avatar. Also available as a JSON API.</span><span class="tags"><span class="tag">Web</span><span class="tag">JSON API</span></span></span></a></li>
+    </ul>
+  </section>
 
-		<div id="content">
-
-			<div id="projects">
-
-				<a class="project" href="https://github.com/burakgarci/btab" >
-					<div class="project-img-wrapper">
-						<img src="images/btab.png" alt="btab for Chrome" class="project-img">
-					</div><!-- /.project-img-wrapper -->
-					<div class="project-title">
-						btab
-					</div><!-- /.project-title -->
-				</a><!-- /.project -->
-
-				<a class="project" href="https://github.com/burakgarci/krom" >
-					<div class="project-img-wrapper">
-						<img src="images/krom.jpg" alt="Krom WordPress Teması" class="project-img">
-					</div><!-- /.project-img-wrapper -->
-					<div class="project-title">
-						Krom
-					</div><!-- /.project-title -->
-				</a><!-- /.project -->
-
-			</div><!-- /#projects -->
-
-		</div><!-- /#content -->
-
-	</div><!-- /.wrap -->
+  <section aria-labelledby="h-archive">
+    <h2 id="h-archive">Archive</h2>
+    <ul class="grid">
+        <li><a class="card" href="https://github.com/burakgarci/btab"><span class="body"><span class="kind c-muted">Extension</span><b>btab</b><span class="s">Basit New Tab, a minimal new tab extension for Chrome. Lives on as Flit New Tab.</span><span class="tags"><span class="tag">2016</span></span></span></a></li>
+        <li><a class="card" href="https://github.com/burakgarci/krom"><span class="body"><span class="kind c-muted">WordPress theme</span><b>Krom</b><span class="s">A mobile-first responsive theme for personal blogs with five layout options.</span><span class="tags"><span class="tag">2015</span></span></span></a></li>
+    </ul>
+  </section>
+</main>
+<footer>© 2012–2026 Burak Garcı</footer>
 </body>
 </html>
